@@ -29,7 +29,7 @@ jobs:
         uses: actions/setup-go@v3.5.0
         with:
           # The Go version to download (if necessary) and use. Supports semver spec and ranges.
-          go-version: 1.8
+          go-version: 1.8.7
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
